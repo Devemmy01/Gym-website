@@ -563,14 +563,6 @@ video {
   left: 0px;
 }
 
-.left-6 {
-  left: 1.5rem;
-}
-
-.right-6 {
-  right: 1.5rem;
-}
-
 .left-24 {
   left: 6rem;
 }
@@ -601,6 +593,10 @@ video {
 
 .-bottom-6 {
   bottom: -1.5rem;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .-z-20 {
@@ -749,6 +745,15 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-md {
@@ -938,11 +943,6 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -977,9 +977,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-5 {
@@ -1030,6 +1035,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pt-2 {
@@ -1153,14 +1163,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-sky-700 {
+.text-slate-50 {
   --tw-text-opacity: 1;
-  color: rgb(3 105 161 / var(--tw-text-opacity));
+  color: rgb(248 250 252 / var(--tw-text-opacity));
 }
 
 .text-sky-600 {
   --tw-text-opacity: 1;
   color: rgb(2 132 199 / var(--tw-text-opacity));
+}
+
+.text-sky-700 {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity));
 }
 
 .text-gray-800 {
@@ -1186,16 +1201,6 @@ video {
 .text-purple-200 {
   --tw-text-opacity: 1;
   color: rgb(233 213 255 / var(--tw-text-opacity));
-}
-
-.text-slate-50 {
-  --tw-text-opacity: 1;
-  color: rgb(248 250 252 / var(--tw-text-opacity));
-}
-
-.text-sky-800 {
-  --tw-text-opacity: 1;
-  color: rgb(7 89 133 / var(--tw-text-opacity));
 }
 
 .text-opacity-50 {
@@ -1309,7 +1314,7 @@ html{
 
 .scrolltop{
   position: fixed;
-  right: 1rem;
+  right: 2.5rem;
   bottom: -20%;
   display: flex;
   justify-content: center;
@@ -1342,7 +1347,7 @@ html{
 ::-webkit-scrollbar-thumb {
   width: 5px;
   border-radius: 10px;
-  background: rgb(22, 66, 100);
+  background: #0369a1;
 }
 
 .hover\:-mr-1:hover {

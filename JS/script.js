@@ -76,9 +76,8 @@ const sr= ScrollReveal({
     delay:400,
 })
 
-sr.reveal(`.nav,  .featured__filters`)
+sr.reveal(`.featured__filters,`)
 sr.reveal(`.about, .cii, .x, .x2`, {delay:800})
-sr.reveal(`.home__drone-data`, {delay: 900, interval: 100, origin: 'bottom'})
 sr.reveal(`.civ`, {delay: 1000, origin: 'bottom'})
 sr.reveal(`.home, .ci, .cv, .x1`, {origin: 'left'})
 sr.reveal(`.homei, .ciii, .cvi, .x3`, {origin: 'right'})
