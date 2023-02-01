@@ -12,16 +12,12 @@
     <title>goGym</title>
 </head>
 <body class="bg-slate-100">
-    <!-- Scroll -->
-    <a href="#" class="scrolltop p-5 bg-sky-700 hover:bg-sky-600 rounded-lg" id="scroll-top">
-        <i class="bx bx-chevrons-up scrolltop__icon text-white"></i> 
-    </a>
     <!-- Loader -->
-    <div class="loader-wrapper w-full h-full bg-sky-900 top-0 left-0 absolute flex justify-center items-center ">
+    <div class="loader-wrapper w-full h-full z-20 bg-sky-900 top-0 left-0 absolute flex justify-center items-center ">
         <i class='bx bx-loader-circle  text-5xl text-slate-50 animate-spin'></i>
     </div>
     <!-- Navbar -->
-    <nav class="relative nav container mx-auto p-6 z-20">
+    <nav class="relative nav container mx-auto p-6 ">
         <!-- Flex container -->
         <div class="flex items-center justify-between">
             <!-- Logo -->
@@ -50,7 +46,7 @@
 
         <!-- Mobile menu -->
         <div class="md:hidden">
-            <div id="menu" class="absolute flex-col items-center self-end hidden py-16  w-full mt-10 space-y-6 font-bold bg-white sm:w-auto sm:w-full sm:self-center  drop-shadow-md">
+            <div id="menu" class=" flex-col items-center self-end hidden py-10  w-full mt-10 gap-5 font-bold bg-white z-20 sm:mx-auto sm:self-center  drop-shadow-md">
                 <a href="#home" class="hover:text-cyan-500 transition-all font-semibold">Home</a>
                 <a href="#about us" class="hover:text-cyan-500 transition-all font-semibold">About us</a>
                 <a href="#pricing" class="hover:text-cyan-500 transition-all font-semibold">Pricing</a>

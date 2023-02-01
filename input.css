@@ -53,29 +53,6 @@ html{
     color: red;
 }
 
-.scrolltop{
-    position: fixed;
-    right: 2.5rem;
-    bottom: -20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-    border-radius: 50px;
-    z-index: 10;
-    transition: .4s;
-    visibility: hidden;
-}
-
-.scrolltop__icon{
-    font-size: 1.8rem;
-    color: #fff;
-}
-
-.scroll-top{
-    visibility: visible;
-    bottom: 1.5rem;
-}
 ::-webkit-scrollbar {
     width: 5px;
 }
