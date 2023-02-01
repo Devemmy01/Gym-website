@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+    
     extend: {
+      fontFamily: {
+        display: ["Satisfy", "cursive"],
+      },
       screens: {
         sm: '480px',
         md: '768px',
